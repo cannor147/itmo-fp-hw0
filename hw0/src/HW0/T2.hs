@@ -13,6 +13,5 @@ type Not a = a -> Void
 doubleNeg :: a -> Not (Not a)
 doubleNeg = (&)
 
--- can't prove
 reduceTripleNeg :: Not (Not (Not a)) -> Not a
-reduceTripleNeg = undefined
+reduceTripleNeg = flip (.) doubleNeg
