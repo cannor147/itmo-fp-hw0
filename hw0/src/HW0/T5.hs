@@ -1,5 +1,6 @@
 module HW0.T5
-  ( nz
+  ( Nat
+  , nz
   , ns
   , nplus
   , nmult

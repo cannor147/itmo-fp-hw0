@@ -1,5 +1,6 @@
 module HW0.T2
-  ( doubleNeg
+  ( Not
+  , doubleNeg
   , reduceTripleNeg
   ) where
 

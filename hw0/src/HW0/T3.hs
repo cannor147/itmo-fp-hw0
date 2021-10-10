@@ -1,5 +1,7 @@
 module HW0.T3
-  ( i
+  ( s
+  , k
+  , i
   , compose
   , contract
   , permute

@@ -1,7 +1,10 @@
 {-# LANGUAGE TypeOperators #-}
 
 module HW0.T1
-  ( distrib
+  ( type (<->)(..)
+  , flipIso
+  , runIso
+  , distrib
   , assocPair
   , assocEither
   ) where
