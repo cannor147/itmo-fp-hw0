@@ -22,7 +22,10 @@ distrib (Left x)       = (Left x, Left x)
 distrib (Right (y, z)) = (Right y, Right z)
 
 assocPair :: (a, (b, c)) <-> ((a, b), c)
-assocPair = Iso (\x -> ((fst x, fst $ snd x), snd $ snd x)) (\y -> (fst $ fst y, (snd $ fst y, snd y)))
+assocPair =
+  Iso
+  (\x -> ((fst x, fst $ snd x), snd $ snd x))
+  (\y -> (fst $ fst y, (snd $ fst y, snd y)))
 
 assocEither :: Either a (Either b c) <-> Either (Either a b) c
 assocEither = Iso leftAssocEither rightAssocEither
