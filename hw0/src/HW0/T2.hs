@@ -4,8 +4,8 @@ module HW0.T2
   , reduceTripleNeg
   ) where
 
-import Data.Void (Void)
-import Data.Function ((&))
+import           Data.Function ((&))
+import           Data.Void     (Void)
 
 type Not a = a -> Void
 

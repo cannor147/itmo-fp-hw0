@@ -7,9 +7,8 @@ module HW0.T6
   , c_whnf
   ) where
 
-import Data.Char (isSpace)
-
-import HW0.T1 (distrib)
+import           Data.Char (isSpace)
+import           HW0.T1    (distrib)
 
 a :: (Either [Char] b, Either [Char] c)
 a = distrib (Left ("AB" ++ "CD" ++ "EF"))

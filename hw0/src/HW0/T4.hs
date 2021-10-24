@@ -5,8 +5,8 @@ module HW0.T4
   , fac
   ) where
 
-import Data.Function (fix)
-import GHC.Natural (Natural, naturalToInt)
+import           Data.Function (fix)
+import           GHC.Natural   (Natural, naturalToInt)
 
 repeat' :: a -> [a]
 repeat' = fix . (:)
@@ -14,7 +14,7 @@ repeat' = fix . (:)
 map' :: (a -> b) -> [a] -> [b]
 map' = fix $ \rec f array ->
   case array of
-    [] -> []
+    []     -> []
     x : xs -> (:) (f x) (rec f xs)
 
 fib :: Natural -> Natural

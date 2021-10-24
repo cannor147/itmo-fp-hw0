@@ -8,7 +8,7 @@ module HW0.T5
   , nToNum
   ) where
 
-import GHC.Natural (Natural)
+import           GHC.Natural (Natural)
 
 type Nat a = (a -> a) -> a -> a
 
