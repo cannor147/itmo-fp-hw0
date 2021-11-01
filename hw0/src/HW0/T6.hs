@@ -1,9 +1,9 @@
 module HW0.T6
   ( a
-  , b
-  , c
   , a_whnf
+  , b
   , b_whnf
+  , c
   , c_whnf
   ) where
 

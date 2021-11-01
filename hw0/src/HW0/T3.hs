@@ -1,9 +1,9 @@
 module HW0.T3
-  ( s
-  , k
-  , i
-  , compose
+  ( compose
   , contract
+  , i
+  , k
+  , s
   , permute
   ) where
 

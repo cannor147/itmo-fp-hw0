@@ -1,8 +1,8 @@
 module HW0.T4
-  ( repeat'
-  , map'
+  ( fac
   , fib
-  , fac
+  , map'
+  , repeat'
   ) where
 
 import           Data.Function (fix)

@@ -1,11 +1,11 @@
 module HW0.T5
   ( Nat
-  , nz
-  , ns
-  , nplus
-  , nmult
   , nFromNatural
+  , nmult
+  , nplus
+  , ns
   , nToNum
+  , nz
   ) where
 
 import           GHC.Num (Natural)

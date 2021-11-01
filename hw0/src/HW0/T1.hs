@@ -2,11 +2,11 @@
 
 module HW0.T1
   ( type (<->)(..)
+  , assocEither
+  , assocPair
+  , distrib
   , flipIso
   , runIso
-  , distrib
-  , assocPair
-  , assocEither
   ) where
 
 -- | Custom implementation of bijection.
