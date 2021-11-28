@@ -13,7 +13,7 @@ s f g x = f x (g x)
 
 -- | K combinator.
 k :: a -> b -> a
-k x y = x
+k x _ = x
 
 -- | I combinator.
 i :: a -> a
